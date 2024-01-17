@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:id="@+id/linearStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/success_back"
+            android:elevation="10dp"
+            android:orientation="horizontal"
+            android:paddingVertical="15dp"
+            android:paddingLeft="15dp"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="BRS Parse Details"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textColor="#fff"
+                    android:textSize="16dp" />
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="16.11.2023  10:40"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/status_ico"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+                    android:background="@drawable/success_white_ico" />
+                <TextView
+                    android:id="@+id/status_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:text="Active"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="15dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/error_back"
+                        android:elevation="10dp"
+                        android:orientation="horizontal"
+                        android:paddingVertical="30dp"
+                        android:paddingLeft="30dp"
+                        tools:ignore="MissingConstraints">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="PFM Flt List "
+                                android:textColor="#fff"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Description"
+                                android:textColor="#fff"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:text="18.10.2023  12:20"
+                                android:textColor="#fff"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:elevation="10dp"
+                                android:src="@drawable/error_white_ico" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="3dp"
+                                android:text="Error"
+                                android:textColor="#fff"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+        -->
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
